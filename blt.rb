@@ -10,7 +10,7 @@ class Blt < Formula
   depends_on 'cloudfoundry/tap/bosh-cli'
 
   def install
-    system "/usr/local/bin/brew", "cask", "install", "docker"
+    # system "/usr/local/bin/brew", "cask", "install", "docker"
 
     binary_name = "blt"
     bin.install "blt-#{version}-darwin-amd64" => binary_name
