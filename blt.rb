@@ -1,9 +1,9 @@
 class Blt < Formula
   desc "CLI for managing a local BOSH environment."
   homepage "https://github.com/aemengo/blt"
-  version "v0.2"
+  version "v0.3"
   url "https://github.com/aemengo/blt/releases/download/#{version}/blt-#{version}-darwin-amd64"
-  sha256 "75360cc232b775cd22841d1971a84f64c2012d36d6b90982b4f2117cd9a0bede"
+  sha256 "dd74341a609dab4be501e193a0c1abc93db23ed4c3404e25a490e9b535fcb5aa"
 
   depends_on arch: :x86_64
   depends_on 'linuxkit/linuxkit/linuxkit'
